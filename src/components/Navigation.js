@@ -27,6 +27,18 @@ export default function Navigation(props) {
       >
         RESUME
       </button>
+      <button
+        onClick={() => props.handlePageChange("Login")}
+        className={props.currentPage === "Login" ? "selected" : ""}
+      >
+        LOGIN
+      </button>
+      <button
+        onClick={() => props.handlePageChange("Signup")}
+        className={props.currentPage === "Signup" ? "selected" : ""}
+      >
+        SIGNUP
+      </button>
     </div>
   );
 }

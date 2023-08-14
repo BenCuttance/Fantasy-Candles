@@ -5,7 +5,10 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import LoginForm from "./pages/LoginForm";
+import SignupForm from "./pages/SignupForm";
 import Footer from "./components/Footer";
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -23,6 +26,12 @@ function App() {
     }
     if (currentPage === "Resume") {
       return <Resume />;
+    }
+    if (currentPage === "Login") {
+      return <LoginForm />;
+    }
+    if (currentPage === "Signup") {
+      return <SignupForm />;
     }
     return <></>;
   };
