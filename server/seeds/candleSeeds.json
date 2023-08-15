@@ -1,0 +1,52 @@
+[
+  {
+    "candleId":"1",
+    "candleTitle": "Lush Green",
+    "candleSize": "Medium",
+    "candleColor":"Lime Green",
+    "candleScent": "Green apple & Citrus",
+    "candlePrice":"$25",
+    "candleDescription":"Candle description 1",
+    "candleImage":""
+  }, 
+  {
+    "candleId":"2",
+    "candleTitle": "Strawberry ",
+    "candleSize": "Medium",
+    "candleColor":"Light Red",
+    "candleScent": "Strawberry",
+    "candlePrice":"$25",
+    "candleDescription":"Candle description 2",
+    "candleImage":""
+  }, 
+  {
+    "candleId":"3",
+    "candleTitle": "Bubblegum blast",
+    "candleSize": "Medium",
+    "candleColor":"Light blue",
+    "candleScent": "Bubblegum",
+    "candlePrice":"$25",
+    "candleDescription":"Candle description 3",
+    "candleImage":""
+  }, 
+  {
+    "candleId":"4",
+    "candleTitle": "Caramel",
+    "candleSize": "Medium",
+    "candleColor":"Dark Orange",
+    "candleScent": "Caramel",
+    "candlePrice":"$25",
+    "candleDescription":"Candle description 4",
+    "candleImage":""
+  }, 
+  {
+    "candleId":"5",
+    "candleTitle": "Orange and Wild Berries",
+    "candleSize": "Medium",
+    "candleColor":"Light Purple",
+    "candleScent": "Orange with hints of wild berries",
+    "candlePrice":"$25",
+    "candleDescription":"Candle description 5",
+    "candleImage":""
+  }
+]
